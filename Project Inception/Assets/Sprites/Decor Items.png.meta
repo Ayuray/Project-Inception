@@ -1,15 +1,27 @@
 fileFormatVersion: 2
 guid: 4f28bc177b646a942bfdc812cf385343
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Light_Post
-    21300002: Wall_Light
-    21300004: Tree
-    21300006: Decor Items_1
-    21300008: Door_Open
-    21300010: Door_Closed
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Light_Post
+  - first:
+      213: 21300002
+    second: Wall_Light
+  - first:
+      213: 21300004
+    second: Tree
+  - first:
+      213: 21300006
+    second: Decor Items_1
+  - first:
+      213: 21300008
+    second: Door_Open
+  - first:
+      213: 21300010
+    second: Door_Closed
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -29,6 +41,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -38,11 +52,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -60,11 +74,16 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -75,7 +94,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -86,6 +106,31 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -105,6 +150,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 56cd12a18433bea479cbd085c8a9ea3f
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -125,6 +171,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 7a953c355636fb84eb7c351e070b1636
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -145,6 +192,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 54289bc677fea684b8de01f041bb3865
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -165,6 +213,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: f8b60d1af3d03ff43b068a53fa63a9f2
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -185,6 +234,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 3cb14cf4d8ce3fb4b9d86df346554ccf
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -205,6 +255,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 787971d9280e6d94b9e091e2eb3d5d6c
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -213,10 +264,19 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 57b5e9723abdc2d46a48180e077c371d
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tree: 21300004
+      Light_Post: 21300000
+      Door_Closed: 21300010
+      Decor Items_1: 21300006
+      Door_Open: 21300008
+      Wall_Light: 21300002
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
